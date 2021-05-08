@@ -1,5 +1,5 @@
 [package]
-name = "vm"
+name = "bootstrap"
 version = "0.1.0"
 authors = ["Eric Olson <eric.rob.olson@gmail.com>"]
 edition = "2018"
