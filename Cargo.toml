@@ -1,0 +1,22 @@
+[package]
+name = "baryonyx"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+documentation = "https://docs.rs/baryonyx/latest/baryonyx/"
+description = "A web framework inspired by Phoenix."
+repository = "https://github.com/ericrobolson/baryonyx"
+keywords = ["web", "framework", "phoenix", "rust"]
+categories = ["web-programming"]
+exclude = ["target/", "Makefile", ".github/"]
+
+[lib]
+name = "baryonyx"
+path = "src/lib.rs"
+
+[[bin]]
+name = "baryonyx"
+path = "src/bin.rs"
+
+
+[dependencies]

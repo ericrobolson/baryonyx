@@ -1,1 +1,10 @@
-A strongly typed compiled language which can target multiple backends.
+# baryonyx
+
+A web framework inspired by Phoenix.
+
+
+## Installation
+
+```bash
+cargo add baryonyx
+```
